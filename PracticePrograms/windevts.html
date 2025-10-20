@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Window Events Example</title>
+    </head>
+    <body>
+        <h1>Window Events</h1>
+        <div id="resizeBox">Resize window</div>
+        <script>
+            window.onload=function(){
+                alert("Page loaded");
+            }
+            window.onresize=function(){
+                document.getElementById("resizeBox").innerText="WINDOW RESIZED";
+            }
+        </script>
+    </body>
+</html>
